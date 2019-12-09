@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullFrameworkWebApp", "FullFrameworkWebApp\FullFrameworkWebApp.csproj", "{3DFEA222-F042-40ED-9F71-B4670DC14D55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFoundry.Shims", "CloudFoundry.Shims\CloudFoundry.Shims.csproj", "{926A2F11-85B5-4DD9-A745-B6F377B73039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFoundry.Shims.Tests", "CloudFoundry.Shims.Tests\CloudFoundry.Shims.Tests.csproj", "{49622E44-5A25-4812-A751-9B0BC6C5D28B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D085C261-E680-4A04-9CFE-AAD16F9DF4AC}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitlab-ci.yml = ..\.gitlab-ci.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DFEA222-F042-40ED-9F71-B4670DC14D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DFEA222-F042-40ED-9F71-B4670DC14D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DFEA222-F042-40ED-9F71-B4670DC14D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DFEA222-F042-40ED-9F71-B4670DC14D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926A2F11-85B5-4DD9-A745-B6F377B73039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926A2F11-85B5-4DD9-A745-B6F377B73039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926A2F11-85B5-4DD9-A745-B6F377B73039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926A2F11-85B5-4DD9-A745-B6F377B73039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49622E44-5A25-4812-A751-9B0BC6C5D28B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49622E44-5A25-4812-A751-9B0BC6C5D28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49622E44-5A25-4812-A751-9B0BC6C5D28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49622E44-5A25-4812-A751-9B0BC6C5D28B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D11B115-460C-4229-8299-B75E6C9A5019}
+	EndGlobalSection
+EndGlobal

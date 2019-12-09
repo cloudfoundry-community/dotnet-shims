@@ -1,0 +1,5 @@
+﻿applications:
+  - name: eventlog-canary-web
+    stack: windows
+    buildpacks:
+      - hwc_buildpack
