@@ -1,3 +1,7 @@
+
+### Contributors 
+This shim and the explanation was created by Brian Friedman, @brianuol
+
 ## Overview
 Sometimes in carpentry, the space where two pieces of wood meet does not result in a perfect angle or a level surface.  Even if our cut was perfect, the surface to which we attach may not conform to our expectations due to changes introduced by its environment.  In these cases, we use shims (thin slices of wood) to make minor adjustments until the desired fit is achieved. This analogy translates well in the world of coding; sometimes despite our best intentions, the contours of our environment in conjunction with the limitations of our underlying runtime prevent us from doing "the same thing" in the Cloud as we do when we run locally.
 
@@ -12,8 +16,4 @@ Many legacy apps make use of the Windows Event Log for persisting errors and war
 By adding `CloudFoundry.Shims.EventLogShim.Initialize()` to your app's startup, all calls to the `System.Diagnostics.EventLog.WriteEvent` and `System.Diagnostics.EventLog.WriteEntry` static methods will write to console.  As with all shims, this behavior will extend only to your app domain.  If you run multiple app domains, be sure to call the Initialize method in each domain at startup.
 
 By using Shims, we make the minor adjustments required to make our approach to logging meet 12-factor at a level surface, so to speak, without changing our code or our environment. This shim leverages the <a target="tab" href="https://github.com/pardeike/Harmony/wiki">Lib.Harmony</a> NuGet package.
-
-
-### Contributors 
-This shim and the explanation was created by Brian Friedman, @brianuol
 
